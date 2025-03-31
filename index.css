@@ -662,7 +662,7 @@ footer .copyright {
 
 @media screen and (max-width: 850px) {
     nav ul {
-        gap: 50px;
+        gap: 30px;
     }
 
     main::after {
