@@ -1,1 +1,1 @@
-# WowGo
+# EasyChina
