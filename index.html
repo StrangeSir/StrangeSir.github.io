@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>易知华 - 了解中国文化</title>
+    <link rel="icon" type="image/png" href="images/dragon.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="lang/zh-CN.css">
+    <link rel="stylesheet" href="lang/en.css">
+</head>
+
+<body>
+    <input type="radio" name="topic" id="festival" hidden>
+    <input type="radio" name="topic" id="food" hidden>
+    <input type="radio" name="topic" id="attractions" hidden>
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <div class="left">
+                <abbr title="了解中国文化">
+                    <a href="#">易知华</a>
+                </abbr>
+            </div>
+            <div class="main">
+                <ul>
+                    <li id="language">
+                        <a href="#" onclick="toggleLanguage()">语言</a>
+                    </li>
+                    <li id="login">
+                        <a href="login.html">账户</a>
+                    </li>
+                    <li id="account">
+                        <span></span>
+                        <div class="dropdown-menu">
+                            <a href="#" class="logout">登出</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="island-bar">
+        <p><abbr title="了解中国文化"><a href="#">易知华</a></abbr></p>
+        <ul>
+            <li>
+                <label for="festival" class="nav-link1">节日</label>
+            </li>
+            <li>
+                <label for="food" class="nav-link2">美食</label>
+            </li>
+            <li>
+                <label for="attractions" class="nav-link3">名胜</label>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <section class="header">
+            <div class="header-banner">
+                <div class="hb-title-wrapper">
+                    <h2 class="hb-headline">"中華上下五千年"</h2>
+                    <p class="hb-subhead">- 易知华 带您了解中国的古今文化 -</p>
+                    <div class="link">
+                        <a>
+                            <span>去了解</span>
+                            <span>&gt;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <!-- <p>
+                这是一个关于中国文化的网站，我们将带您了解中国的古今文化，包括中国的历史、文化、风俗、传统节日等等，甚至可以通过我们的网站学习中文。
+            </p> -->
+            <div class="c-title-wrapper">
+                <h2 class="c-headline">易知华</h2>
+                <p class="c-subhead">- 欢迎浏览 -</p>
+            </div>
+            <div class="main">
+                <div class="main-left">
+                    <div class="sidebar">
+                        <ul>
+                            <li>
+                                <label for="festival" class="nav-link1">节日</label>
+                            </li>
+                            <li>
+                                <label for="food" class="nav-link2">美食</label>
+                            </li>
+                            <li>
+                                <label for="attractions" class="nav-link3">名胜</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-right">
+                    <section class="festival">
+                        <a name="festival"></a>
+                        <h3>节日</h3>
+                        <div class="items-wrapper">
+                            <div class="item">
+                                <img src="images/festival1.png" alt="error">
+                                <h4>春节</h4>
+                                <p class="describe">农历正月初一</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/festival2.png" alt="error">
+                                <h4>寒食节</h4>
+                                <p class="describe">公历清明节前1至2日</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/festival3.png" alt="error">
+                                <h4>清明节</h4>
+                                <p class="describe">公历4月4日</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/festival4.png" alt="error">
+                                <h4>端午节</h4>
+                                <p class="describe">农历五月初五</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/festival5.png" alt="error">
+                                <h4>七夕节</h4>
+                                <p class="describe">农历七月初七</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/festival6.png" alt="error">
+                                <h4>除夕节</h4>
+                                <p class="describe">农历十二月二十九日或三十日</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="food">
+                        <a name="food"></a>
+                        <h3>美食</h3>
+                        <div class="items-wrapper">
+                            <div class="item">
+                                <img src="images/food1.png" alt="error">
+                                <h4>火锅</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/food2.png" alt="error">
+                                <h4>回锅肉</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/food3.png" alt="error">
+                                <h4>螺蛳粉</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/food4.png" alt="error">
+                                <h4>佛跳墙</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/food5.png" alt="error">
+                                <h4>奶茶</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/food6.png" alt="error">
+                                <h4>肉夹馍</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="attractions">
+                        <a name="attractions"></a>
+                        <h3>名胜</h3>
+                        <div class="items-wrapper">
+                            <div class="item">
+                                <img src="images/attraction1.png" alt="error">
+                                <h4>青城山</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/attraction2.png" alt="error">
+                                <h4>乐山大佛</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/attraction3.png" alt="error">
+                                <h4>长城</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/attraction4.png" alt="error">
+                                <h4>外滩</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/attraction5.png" alt="error">
+                                <h4>日月潭</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                            <div class="item">
+                                <img src="images/attraction6.png" alt="error">
+                                <h4>兵马俑</h4>
+                                <p class="describe">简介</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="detail-modal" id="detailModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <h2 class="modal-title"></h2>
+            </div>
+            <div class="modal-body">
+                <img class="modal-image" src="" alt="详情图片">
+                <div class="modal-description"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyright">Copyright &copy; Made by YTC</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
